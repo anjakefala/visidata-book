@@ -121,6 +121,8 @@ And of course `g\` and `z\` work in the same way as g| and z|. So while z| and z
 
 ### [dev] Sheet api
 
+From `selection.py`.
+
 ## `Sheet.rowid(row)` (overrideable)
 
    - rows are not hashable and can't be looked up easily by content without linear (and expensive) search.
