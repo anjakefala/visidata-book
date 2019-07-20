@@ -1,7 +1,7 @@
 
 BUILD=build
 
-all: book.html
+all: $(BUILD)/book.html
 
 $(BUILD):
 	mkdir -p $(BUILD)
@@ -9,5 +9,5 @@ $(BUILD):
 %.html: %.md
 	markdown $< > $@
 
-$(BUILD)/book.md: book.lst
+$(BUILD)/book.md: book.lst $(BUILD)
 	cat `cat $<` > $@
