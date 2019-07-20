@@ -11,3 +11,6 @@ $(BUILD):
 
 $(BUILD)/book.md: book.lst $(BUILD)
 	cat `cat $<` > $@
+
+clean:
+	rm $(BUILD)/*
