@@ -21,7 +21,7 @@ Because the keybindings are so short, they quickly become part of your muscle me
 When you need another command, you can look it up in the manpage (whether via `Ctrl+H`, or [online](/man)), or in the commands sheet (`z Ctrl+H`).
 Or maybe you discover new commands in the online documentation (/docs), or from a friend, or any number of other sources.
 
-# Mnemonics
+#### Mnemonics
 
 To help you get over this learning curve quickly, the keybindings are deliberately chosen to be mnemonic; that is, they have a structure which is intended to be a lot easier to remember than if they were chosen purely at random.
 These mnemonics are drawn from various sources:
