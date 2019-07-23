@@ -13,7 +13,7 @@ Modules should degrade or fail gracefully if they depend on another module which
 Python classes normally declare and implement all methods and members in the class definition, which exists in a single source file.
 
 Using import as the enable mechanism, means that features should be self contained within a source file.
-Python allows monkey-patching, which is useful for exactly this purpose of modular extensions.
+Python allows monkey-patching <a href='#b1' name='a'><sup>1</sup></a>, which is useful for exactly this purpose of modular extensions.
 
 VisiData achieves this with the `Extensible` class, which a few core classes inherit from.  Extensible provides some helper functions to allow these core classes to be monkey-patched easily and consistently.
 
@@ -83,4 +83,5 @@ This acts just like an `@property` decorator, if it were defined inline to the c
 
 #### `@Extensible.cached_property`
 
-
+## Footnotes
+<a name='b1' href='#a1'>1.</a> Monkey patching is adding new functionality to a module or class definition after the program started running.
